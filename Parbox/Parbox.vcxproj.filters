@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Parbox">
+      <UniqueIdentifier>{D13297C9-BDD4-C19F-A68F-D5F392D048F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parbox\math">
+      <UniqueIdentifier>{6A8EFCEC-D643-75E2-5F38-6FB9CBEC6BE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Parbox.h" />
+    <ClInclude Include="src\Parbox\Core.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Engine.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Input.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Log.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Math.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\OpenGL_Log.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Renderer.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Shader.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Texture.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\Window.h">
+      <Filter>Parbox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\math\Matrix4.h">
+      <Filter>Parbox\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\math\Vector2.h">
+      <Filter>Parbox\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\math\Vector3.h">
+      <Filter>Parbox\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parbox\math\Vector4.h">
+      <Filter>Parbox\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pbxpch.h" />
+    <ClInclude Include="stb_image\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Parbox\Engine.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Input.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Log.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\OpenGL_Log.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Renderer.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Shader.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Texture.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\Window.cpp">
+      <Filter>Parbox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parbox\math\Matrix4.cpp">
+      <Filter>Parbox\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pbxpch.cpp" />
+    <ClCompile Include="stb_image\stb_image.cpp" />
+  </ItemGroup>
+</Project>

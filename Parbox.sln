@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParboxGame", "ParboxGame\ParboxGame.vcxproj", "{4BCDCE54-3785-10A2-A08C-E9FD8C63AB92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{53E47842-3FC8-3998-A828-34EB942B241A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLAD", "Dependencies\glad\GLAD.vcxproj", "{5D4A857C-4981-860D-F26D-6C10DE83020F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "Dependencies\GLFW\GLFW.vcxproj", "{154B857C-0182-860D-AA6E-6C109684020F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parbox", "Parbox\Parbox.vcxproj", "{D13297C9-BDD4-C19F-A68F-D5F392D048F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BCDCE54-3785-10A2-A08C-E9FD8C63AB92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BCDCE54-3785-10A2-A08C-E9FD8C63AB92}.Debug|Win32.Build.0 = Debug|Win32
+		{4BCDCE54-3785-10A2-A08C-E9FD8C63AB92}.Release|Win32.ActiveCfg = Release|Win32
+		{4BCDCE54-3785-10A2-A08C-E9FD8C63AB92}.Release|Win32.Build.0 = Release|Win32
+		{5D4A857C-4981-860D-F26D-6C10DE83020F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D4A857C-4981-860D-F26D-6C10DE83020F}.Debug|Win32.Build.0 = Debug|Win32
+		{5D4A857C-4981-860D-F26D-6C10DE83020F}.Release|Win32.ActiveCfg = Release|Win32
+		{5D4A857C-4981-860D-F26D-6C10DE83020F}.Release|Win32.Build.0 = Release|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|Win32.Build.0 = Debug|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win32.ActiveCfg = Release|Win32
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|Win32.Build.0 = Release|Win32
+		{D13297C9-BDD4-C19F-A68F-D5F392D048F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D13297C9-BDD4-C19F-A68F-D5F392D048F0}.Debug|Win32.Build.0 = Debug|Win32
+		{D13297C9-BDD4-C19F-A68F-D5F392D048F0}.Release|Win32.ActiveCfg = Release|Win32
+		{D13297C9-BDD4-C19F-A68F-D5F392D048F0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D4A857C-4981-860D-F26D-6C10DE83020F} = {53E47842-3FC8-3998-A828-34EB942B241A}
+		{154B857C-0182-860D-AA6E-6C109684020F} = {53E47842-3FC8-3998-A828-34EB942B241A}
+	EndGlobalSection
+EndGlobal
