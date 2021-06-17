@@ -1,2 +1,2 @@
 # ParboxEngine
-A work in progress engine intended for being used for game developing.
+A very brave and short-lived attempt to make a multi-platform game engine
